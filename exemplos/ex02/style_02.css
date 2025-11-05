@@ -1,0 +1,33 @@
+header {
+    background-color: pink;
+    border: 0cm;
+    margin: 0cm;
+    padding: 10px;
+    align-items: center;
+}
+
+img {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 05px;
+    border: 0cm;
+}
+
+div {
+    background-color: #E0019A;
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+}
+
+nav {
+    width: auto;
+    margin: auto;
+    background-color: aliceblue;
+    text-align: center;
+    border: 100px;
+    padding: 10px;
+}
