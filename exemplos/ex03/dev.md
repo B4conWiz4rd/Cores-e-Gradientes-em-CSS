@@ -49,3 +49,5 @@ Layout e estrutura
 Conclusão 
 
 O Brotata’s prova que simplicidade não é monotonia. Com uma paleta quase monocromática e uma única cor de destaque, o design comunica calor, crocância e carinho — exatamente como uma batata assada no forno da vovó. É funcional, memorável e deliciosamente humano. 
+
+https://color.adobe.com/pt/Brotata's-Monocrom//u00E1tico-color-theme-014b3428-a5ab-4cf6-828a-1772aef6c98f/
