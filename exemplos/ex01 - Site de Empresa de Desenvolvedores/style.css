@@ -3,43 +3,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+/* Paleta baseada nas cores fornecidas (XML) */
 body {
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    color: #5A5F5B; /* Cinza Lua */
-    background-color: #EADFC7; /* Bruma Clara */
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #6A5A50; /* Cinza quente escuro (derivado do Teste-1) */
+    background: linear-gradient(to bottom, #F2E3B3 0%, #F2DBB3 100%);
+    /* Ou só fundo sólido: background-color: #F2E3B3; */
 }
 
-/* Links */
 a {
-    color: #D4A574; /* Âmbar Suave */
+    color: #F2BCB3; /* Teste-4 – destaque suave */
 }
 
-/* Cabeçalhos */
-h1 {
+h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
-    color: #5A5F5B;
+    color: #6A5A50;
 }
 
 h2 {
-    font-family: 'Cormorant Garamond', serif;
-    color: #5A5F5B;
-    border-left: #6B7C61;
-}
-
-h3 {
-    font-family: 'Cormorant Garamond', serif;
-    color: #5A5F5B;
+    border-left: 4px solid #F2C6B3; /* Teste-1 */
 }
 
 em {
-    color: #6B7C61; /* Verde Sombra */
+    color: #F2C6B3;
 }
 
-p {
-    margin-bottom: 1rem;
-}
-
-/* Main e seções */
 main {
     background-color: #fff;
 }
