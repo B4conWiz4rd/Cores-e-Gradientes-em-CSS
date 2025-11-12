@@ -1,0 +1,12 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+header, footer {
+    background-color: lightgray;
+}
+
+nav a {
+    color: black;
+}

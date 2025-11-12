@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre - Elden Ring</title>
+
+    <!-- Conecta ao arquivo de estilo -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonte do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            background-color: var(--cor-sobre-fundo);
+            color: var(--cor-sobre-texto);
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: var(--cor-escura);
+            padding: 15px;
+        }
+
+        nav a {
+            color: var(--cor-texto);
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: var(--cor-destaque);
+        }
+
+        main {
+            flex: 1;
+        }
+
+        h1 {
+            color: var(--cor-destaque);
+            font-size: 48px;
+            margin-top: 40px;
+        }
+
+        p {
+            max-width: 700px;
+            margin: 20px auto;
+            line-height: 1.6;
+            font-size: 18px;
+        }
+
+        .botoes-lojas {
+            margin-top: 40px;
+        }
+
+        .botoes-lojas a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .steam { background-color: var(--btn-steam); }
+        .xbox { background-color: var(--btn-xbox); }
+        .playstation { background-color: var(--btn-playstation); }
+
+        .botoes-lojas a:hover {
+            opacity: 0.85;
+        }
+
+        footer {
+            background-color: var(--cor-escura);
+            color: var(--cor-texto);
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        footer span {
+            color: var(--cor-destaque);
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" target="_self">Home Page</a>
+            <a href="sobre.html" target="_self">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Sobre Elden Ring</h1>
+        <p>
+            <strong>Elden Ring</strong> é um jogo de ação e RPG desenvolvido pela 
+            <em>FromSoftware</em> e publicado pela <em>Bandai Namco Entertainment</em>. 
+            Dirigido por <em>Hidetaka Miyazaki</em> em colaboração com o escritor 
+            <em>George R. R. Martin</em>, o jogo combina um mundo aberto sombrio, 
+            criaturas colossais e uma narrativa misteriosa e envolvente.
+        </p>
+        <p>
+            Lançado em 2022, Elden Ring conquistou jogadores e crítica por seu 
+            universo vasto, liberdade de exploração e combates desafiadores. 
+            Disponível em diversas plataformas, o título é considerado uma das 
+            maiores experiências de fantasia sombria dos últimos tempos.
+        </p>
+
+        <div class="botoes-lojas">
+            <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" class="steam" target="_blank">Comprar na Steam</a>
+            <a href="https://www.xbox.com/pt-BR/games/store/elden-ring/9p3j5p8xwccd" class="xbox" target="_blank">Comprar no Xbox</a>
+            <a href="https://store.playstation.com/pt-br/concept/10003255" class="playstation" target="_blank">Comprar no PlayStation</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos os direitos reservados &copy; <span>Edmilson Araújo</span> - 2025</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* ===================================
+   Folha de estilo - style.css
+   Apenas cores e fontes (para todas as páginas)
+   =================================== */
+
+/* Paleta de cores principal (da imagem) */
+:root {
+    --cor-fundo: #000000;        /* Fundo principal (preto profundo) */
+    --cor-escura: #2F2C1C;       /* Tom terroso escuro - usado em cabeçalhos */
+    --cor-secundaria: #A26F28;   /* Dourado envelhecido - títulos menores */
+    --cor-destaque: #CFA657;     /* Dourado brilhante - destaque principal */
+    --cor-texto: #B8A790;        /* Bege claro - texto padrão */
+}
+
+/* Cores específicas da página "sobre" */
+:root {
+    --btn-steam: #8B8B8B;        /* Cinza para botão Steam */
+    --btn-xbox: #107C10;         /* Verde Xbox */
+    --btn-playstation: #003791;  /* Azul PlayStation */
+    --cor-sobre-fundo: #1C1A13;  /* Fundo levemente diferente para diferenciar a página */
+    --cor-sobre-texto: #D2C8B5;  /* Texto um pouco mais claro para leitura */
+}
+
+/* Fonte principal (definida no HTML) */
+body {
+    font-family: 'Cinzel', serif;
+}
