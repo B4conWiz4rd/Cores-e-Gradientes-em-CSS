@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre - Elden Ring</title>
-
-    <!-- Conecta ao arquivo de estilo -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Fonte do Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
-
+    <link rel="shortcut icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
     <style>
+
+        :root {
+        --btn-steam: #8B8B8B;        /* Cinza para botão Steam */
+        --btn-xbox: #107C10;         /* Verde Xbox */
+        --btn-playstation: #003791;  /* Azul PlayStation */
+        --cor-sobre-fundo: #1C1A13;  /* Fundo levemente diferente para diferenciar a página */
+        --cor-sobre-texto: #D2C8B5;  /* Texto um pouco mais claro para leitura */
+    }
+
         body {
             margin: 0;
-            background-color: var(--cor-sobre-fundo);
-            color: var(--cor-sobre-texto);
-            font-family: 'Cinzel', serif;
             text-align: center;
             padding: 30px;
             display: flex;
@@ -25,19 +26,13 @@
         }
 
         header {
-            background-color: var(--cor-escura);
             padding: 15px;
         }
 
         nav a {
-            color: var(--cor-texto);
             text-decoration: none;
             margin: 0 20px;
             font-weight: bold;
-        }
-
-        nav a:hover {
-            color: var(--cor-destaque);
         }
 
         main {
@@ -45,7 +40,6 @@
         }
 
         h1 {
-            color: var(--cor-destaque);
             font-size: 48px;
             margin-top: 40px;
         }
@@ -80,14 +74,11 @@
         }
 
         footer {
-            background-color: var(--cor-escura);
-            color: var(--cor-texto);
             padding: 15px;
             font-size: 14px;
         }
 
         footer span {
-            color: var(--cor-destaque);
             font-weight: bold;
         }
     </style>
@@ -119,8 +110,8 @@
 
         <div class="botoes-lojas">
             <a href="https://store.steampowered.com/app/1245620/ELDEN_RING/" class="steam" target="_blank">Comprar na Steam</a>
-            <a href="https://www.xbox.com/pt-BR/games/store/elden-ring/9p3j5p8xwccd" class="xbox" target="_blank">Comprar no Xbox</a>
-            <a href="https://store.playstation.com/pt-br/concept/10003255" class="playstation" target="_blank">Comprar no PlayStation</a>
+            <a href="https://www.xbox.com/pt-BR/games/elden-ring" class="xbox" target="_blank">Comprar no Xbox</a>
+            <a href="https://www.playstation.com/pt-br/games/elden-ring/" class="playstation" target="_blank">Comprar no PlayStation</a>
         </div>
     </main>
 
