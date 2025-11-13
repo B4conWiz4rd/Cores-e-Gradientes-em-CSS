@@ -1,12 +1,34 @@
 body {
-    background-color: #34B9CF;
-    color: #F4F1E8;
+    font-family: ;
+    background-color: ;
+    color: ;
 }
 
-header, footer {
-    background-color: #479374;
+header{
+    background-color: ;
 }
 
 nav a {
-    color: #F4F1E8;
+    color: ;
+}
+
+nav a:hover {
+    color: ;
+    }
+
+h1 {
+    color: ;
+}
+
+h2 {
+    color: ;
+}
+
+footer{
+    background-color: ;
+    color: ;
+}
+
+footer span {
+    color: ;
 }
