@@ -6,27 +6,26 @@
 /* Paleta baseada nas cores fornecidas (XML) */
 body {
     font-family: 'Inter', system-ui, sans-serif;
-    color: #6A5A50; /* Cinza quente escuro (derivado do Teste-1) */
-    background: #F2E3B3;
+    color: ;
 }
 
 a {
-    color: #F2BCB3; /* Teste-4 – destaque suave */
+    color: ;
 }
 
 h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
-    color: #6A5A50;
+    color: ;
 }
 
 h2 {
-    border-left: 4px solid #F2C6B3; /* Teste-1 */
+    border-left: 4px solid ;
 }
 
 em {
-    color: #F2C6B3;
+    color: ;
 }
 
 main {
-    background-color: #fff;
+    background-color: ;
 }
